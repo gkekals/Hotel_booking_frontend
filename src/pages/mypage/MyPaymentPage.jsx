@@ -30,6 +30,7 @@ const MyPaymentPage = () => {
         email={user.email}
       />
 
+<<<<<<< HEAD
       <h2 className="payment-title">결제수단</h2>
 
       <div className="card-list">
@@ -127,6 +128,10 @@ const MyPaymentPage = () => {
           </div>
         </div>
       )}
+=======
+      {/* 결제수단 공통 컴포넌트 */}
+      <PaymentContent />
+>>>>>>> upstream/main
     </div>
   );
 };
